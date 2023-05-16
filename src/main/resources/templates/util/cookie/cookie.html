@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8">
         <title>Aitor Arias Beneitez</title>
-        <link rel="stylesheet" href="../../../static/css/style.css">
-        <link rel="stylesheet" href="../../../static/css/cookie.css">
+        <link rel="stylesheet" th:href="@{/css/cookie.css}">
     </head>
     <body>
         <!-- Cookie Banner -->
@@ -17,6 +16,6 @@
         </div>
         <!-- End of Cookie Banner -->
 
-        <script src="../../../static/js/cookie.js"></script>
+        <script th:src="@{/js/cookie.js}"></script>
     </body>
 </html>
